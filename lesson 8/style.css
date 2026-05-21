@@ -1,0 +1,42 @@
+body {
+    background-color: darkslateblue;
+    background-image: linear-gradient(to bottom,darkslateblue,navy);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: arial,sans-serif;
+}
+
+.page-header{
+    background-image: linear-gradient(to right,purple,rgb(151, 61, 124));
+    border-radius: 16px;
+    text-align: center;
+    color:white;
+}
+
+.fact-card{
+    background-color: rgb(35, 35, 99);
+    border: 12px;
+    color: aliceblue;
+}
+
+.fact-card h2{
+    color:rgb(197, 54, 49);
+}
+
+.star{
+    width: 60px;
+    height: 60px;
+    background-color: light rgb(221, 221, 41);
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+    from{background-color:yellow;}
+    to{background-color: white;}
+}
+
+.footer-text {
+    text-align: center;
+    color: rgb(216, 65, 191);
+}

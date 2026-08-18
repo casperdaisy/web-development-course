@@ -1,0 +1,43 @@
+/* style.CSS /*
+
+/* Section background like the image */
+#social-media{
+    background: #2f3550;
+}
+
+/* heading style */
+.m-heading{
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+/*button cards */
+.media_link{
+    border: 2px solid #f2a900;
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-right: 18px;
+    background: transparent;
+    text-align: left;
+}
+
+/* Keep spacing like the screenshot */
+.row.pt-5{
+    gap: 18px;
+}
+
+/* text inside the buttons */
+.media_link h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Icons */
+.media_link i{
+    font-size: 22px
+}
+
+/* email button filled (alreafy has bg warning in HTML) */
+.media_link.bg-warning{
+    border: 2px solid #f2a900;
+}
